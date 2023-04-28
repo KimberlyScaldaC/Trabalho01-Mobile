@@ -9,5 +9,9 @@
   Seguir a foto para a criação das pastas -><br />
 </p>
 <div>
-<img src="https://desblogada.files.wordpress.co..." width="0px" />
+<img src="https://github.com/KimberlyScaldaC/Trabalho01-Mobile/blob/main/Screenshot_27.png?raw=true" width="40%" />
 </div>
+
+<span>
+<br />Tchau 👋 
+</span>
