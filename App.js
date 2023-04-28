@@ -14,8 +14,6 @@ export default function App() {
 
   const baseUrl = 'https://api.otaviolube.com';
   
-  
-
   useEffect(function(){
       fetch(baseUrl+'/api/filmes?populate=*')
       .then(data => data.json())
@@ -44,17 +42,7 @@ export default function App() {
         <StatusBar style="auto"/>
       </ScrollView>
       
-    </SafeAreaView>
-
-      
-      
-      
-      
-           
-     
-   
-   
-    
+    </SafeAreaView>    
   );
 }
 
@@ -68,13 +56,3 @@ const styles = StyleSheet.create({
   },
 
 });
-
-/*
-
-viewFilmes -> COLOCA NO CENTRO
-
-{listaFilmes.map(item => <Item item={item}/>)}
-{filmes.length > 0 ? filmes.map(filme => <Text>{filme.attributes.titulo}</Text>) : <Text>Carregando ...</Text>}
-
-
-*/ 
