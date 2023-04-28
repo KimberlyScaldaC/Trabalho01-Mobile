@@ -16,19 +16,7 @@ const stylesApp = StyleSheet.create({
     txtCartaz: {
         
     },
-
-
-
-
-
 });
 
 export default stylesApp;
 
-/*
-
-: {
-        
-    },
-
-*/
